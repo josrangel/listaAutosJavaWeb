@@ -1,0 +1,24 @@
+html {
+    font-family: sans-serif; 
+    text-align: center;
+}
+
+body {
+    display: inline-block;
+    text-align: left;
+    background-color:white; 
+}
+p.campo, .campos {display: inline-block; vertical-align: top; margin: 1em}
+p.campo > label, legend {font-weight: bold}
+p.campo label, .mensaje {display: block}
+p.accion {text-align: center}
+*:required, .campos.obligatorio fieldset {border: thin solid blue}
+input[type=number], .numero {text-align: right}
+footer {text-align: center}
+footer, em {font-size: small}
+.mensajes {font-weight: bold}
+.mensaje {font-size: small}
+.info, .error {font-weight: bold}
+.error {color: red}
+.herramientas * {vertical-align: middle}
+
